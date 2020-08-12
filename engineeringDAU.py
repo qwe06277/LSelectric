@@ -49,12 +49,12 @@ class CompactDauTestCase(unittest.TestCase):
         #engineering
         driver.find_element_by_xpath('/html/body/app-root/app-main/div/div[1]/app-title-bar/div/div[2]/div[1]/div[7]/div').click()
         #DAU
-        driver.find_element_by_xpath('//*[@id="main-content-container"]/app-engineering/div/div/div[1]/nav/div/a[3]')
+        driver.find_element_by_xpath('//*[@id="main-content-container"]/app-engineering/div/div/div[1]/nav/div/a[3]').click()
 
     
     
     #testcase 1.19.10
-    def test_04_connect(self):#왜안돼냐고;;;
+    def test_04_connect(self):
         #DAU list
         #DAU_list = driver.find_elements_by_class_name("dauListNumber")[1]
         for i in range(1,5):
@@ -76,7 +76,7 @@ class CompactDauTestCase(unittest.TestCase):
     def test_05(self):
         #DAU등록
         driver.find_element_by_xpath('//*[@id="main-content-container"]/app-engineering/div/div/div[2]/app-dau-enginerring/div/div[1]/div/app-dau-list/div[2]/div/div/table/tbody/tr[1]/td[3]').click()
-        #..아ㅏㅏㅏ않이 개빡
+        #웹 구현 부족
 
         
     #def tearDown(self):
