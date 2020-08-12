@@ -8,6 +8,18 @@ from selenium.webdriver.common.keys import Keys
 import unittest, time, re
 from time import sleep
 
+
+########################################################
+# TestCase 
+# 1.19.23 Engineering_DAU - 전력설비 Site 추가 테스트
+# 1.19.24 Engineering_DAU - 전력설비 Building 추가 테스트
+# 1.19.25 Engineering_DAU - 전력설비 Room 추가 테스트
+# 1.19.26 Engineering_DAU - 전력설비 전력설비 추가 테스트
+# 1.19.27 Engineering_DAU - 전력설비 삭제 테스트
+########################################################
+
+
+
 class CompactDauTestCase(unittest.TestCase):
     """
     def setUp(self):
